@@ -1,0 +1,15 @@
+numpy
+llvmlite
+numba
+#torch>=1.1
+tensorboardX
+easydict
+pyyaml
+scikit-image
+tqdm
+#torchvision
+SharedArray
+opencv-python
+pyquaternion
+prefetch-generator==1.0.3
+efficientnet_pytorch

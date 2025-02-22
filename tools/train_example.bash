@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=4,5,6,7 python -m torch.distributed.launch --nproc_per_node=4 train.py --cfg_file cfgs/kitti_models/voxel_rcnn_3class_ASPP_deconv_v2.yaml --launcher pytorch

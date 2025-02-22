@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=4,5,6,7 python -m torch.distributed.launch --nproc_per_node=4 test.py --cfg_file cfgs/kitti_models/voxel_rcnn_3class.yaml --launcher pytorch --batch_size 16 --ckpt ../output/kitti_models/voxel_rcnn_3class/default/ckpt/checkpoint_epoch_60.pth
